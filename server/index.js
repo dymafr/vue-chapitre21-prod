@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const port = process.env.PORT || '3000';
+const port = process.env.PORT | '3000';
 const { MongoClient } = require('mongodb');
 
 const client = new MongoClient('mongodb+srv://jean:123@cluster0.urpjt.gcp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
